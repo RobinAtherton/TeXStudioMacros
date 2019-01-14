@@ -13,3 +13,8 @@ Create Enumeration: ALT + E
 Create Itemize: ALT + Q
 Create Subitem: ALT + CTRL + I
 ```
+
+### Glossary
+```
+Create Glossary: ALT + G
+```
