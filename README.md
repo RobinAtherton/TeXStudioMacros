@@ -1,13 +1,13 @@
-### LaTeXMacros
+# LaTeXMacros
 ## Additional Shortcuts for TeXStudio
-# Partitioning Shortcuts
+### Partitioning Shortcuts
 ```
 Create Chapter: ALT + 4
 Create Section: ALT + 3
 Create Subsection: ALT + 2
 Create Paragraph: ALT + 1
 ```
-# Listing Shortcuts
+### Listing Shortcuts
 ```
 Create Enumeration: ALT + E
 Create Itemize: ALT + Q
