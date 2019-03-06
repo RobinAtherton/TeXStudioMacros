@@ -1,6 +1,6 @@
-Macros\0=Paragraph, \\paragraph{%<cursor%>}, $...$, 
-Macros\1=Subsection, \\subsection{%<cursor%>}, $...$, 
-Macros\2=Section, \\section{%<cursor%>}, $...$, 
+Macros\0=Paragraph, \\paragraph{%<%:id:cursor%>}\n\n, $...$, 
+Macros\1=Subsection, \\subsection{%<%:id:cursor%>}\n, $...$, 
+Macros\2=Section, \\section{%<%:id:cursor%>}, $...$, 
 Macros\3=Chapter, \\chapter{%<cursor%>}, $...$, 
 Macros\4=Itemize, \\begin{itemize}\n\t\\item %<cursor%>\n\\end{itemize}, $...$, 
 Macros\5=Subitem, \\subitem %<cursor%>, $...$, 
@@ -31,3 +31,6 @@ keysetting\10\key=Ctrl+Shift+P
 Macros\10=Create lstlisting, "\\begin{lstlisting}[caption={%<%:id:cursor%>}, captionpos=, label={lst:%<%:mirror,id:cursor%>}, language=]", $...$, 
 keysetting\11\id=main/macros/tag10~0
 keysetting\11\key=Ctrl+Alt+L
+Macros\11=Create Label, \\label{%<cursor%>}, $...$, 
+keysetting\12\id=main/macros/tag11~0
+keysetting\12\key=Ctrl+Shift+X
