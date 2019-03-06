@@ -1,4 +1,10 @@
 # LaTeXMacros
+
+## How to install
+Replace the texstudio.ini at the following paths depending on your OS.
+Linux/Unix/Mac: ~/.config/texstudio/texstudio.ini
+Windows: %APPDATA%\texstudio\texstudio.ini
+
 ## Additional Shortcuts for TeXStudio
 ### Partitioning Shortcuts
 ```
@@ -17,4 +23,9 @@ Create Subitem: ALT + CTRL + I
 ### Glossary
 ```
 Create Glossary: ALT + G
+```
+
+### Markup Shortcuts
+```
+Emphasize: ALT + V
 ```
