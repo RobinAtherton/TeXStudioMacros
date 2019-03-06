@@ -1,6 +1,9 @@
 # LaTeXMacros
 
 ## How to install
+### Prerequisite 
+Backup your texstudio.ini so you can revert if you do something wrong.
+
 ### First Method
 ```
 Replace the texstudio.ini at the following paths depending on your OS.
@@ -16,10 +19,10 @@ Open the texstudio.ini, look for the [Texmaker] tag and add the content of Macro
 ## Additional Shortcuts for TeXStudio
 ### Partitioning Shortcuts
 ```
-Create Chapter: ALT + 4
-Create Section: ALT + 3
-Create Subsection: ALT + 2
-Create Paragraph: ALT + 1
+Create Chapter: ALT + 1
+Create Section: ALT + 2
+Create Subsection: ALT + 3
+Create Paragraph: ALT + 4
 ```
 ### Listing Shortcuts
 ```
@@ -31,6 +34,7 @@ Create Subitem: ALT + CTRL + I
 ### Environment Shortcuts
 ```
 Create a Figure Environment: CTRL + SHIFT + P
+Create a List Set Environment: CTRL + ALT + L
 ```
 
 ### Glossary
