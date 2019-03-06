@@ -1,4 +1,4 @@
-# LaTeXMacros
+# TeXStudioMacros
 
 ## How to install
 ### Prerequisite 
@@ -12,9 +12,9 @@ Windows: %APPDATA%\texstudio\texstudio.ini
 
 This will overwrite all your texstudio configurations, so method two is preferred.
 ```
-###Second Method
+### Second Method
 ```
-Open the texstudio.ini, look for the [Texmaker] tag and add the content of Macros.txt below.
+Open the texstudio.ini, look for the [Texmaker] tag and append the content of Macros.txt below.
 ```
 ## Additional Shortcuts for TeXStudio
 ### Partitioning Shortcuts
