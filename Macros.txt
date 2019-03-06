@@ -34,3 +34,6 @@ keysetting\11\key=Ctrl+Alt+L
 Macros\11=Create Label, \\label{%<cursor%>}, $...$, 
 keysetting\12\id=main/macros/tag11~0
 keysetting\12\key=Ctrl+Shift+X
+keysetting\13\id=main/macros/tag12~0
+keysetting\13\key=Ctrl+Shift+Y
+Macros\RepositoryURL=https://api.github.com/repos/texstudio-org/texstudio-macro/contents/

@@ -40,7 +40,7 @@ Create a List Set Environment: CTRL + ALT + L
 ### Containers
 ```
 Create Glossary: ALT + G
-Create Label: CTRL + SHIFT X
+Create Label: CTRL + SHIFT + X
 ```
 
 ### Markup Shortcuts
