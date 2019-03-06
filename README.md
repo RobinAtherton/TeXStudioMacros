@@ -1,4 +1,4 @@
-# LaTeXMacros
+# TeXStudioMacros
 
 ## How to install
 ### First Method
