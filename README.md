@@ -41,6 +41,7 @@ Create a List Set Environment: CTRL + ALT + L
 ```
 Create Glossary: ALT + G
 Create Label: CTRL + SHIFT + X
+Create Label for section: CTRL + ALT + SHIFT + L, CTRL + SHIFT + Y
 ```
 
 ### Markup Shortcuts
