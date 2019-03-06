@@ -1,10 +1,18 @@
 # LaTeXMacros
 
 ## How to install
+### First Method
+```
 Replace the texstudio.ini at the following paths depending on your OS.
 Linux/Unix/Mac: ~/.config/texstudio/texstudio.ini
 Windows: %APPDATA%\texstudio\texstudio.ini
 
+This will overwrite all your texstudio configurations, so method two is preferred.
+```
+###Second Method
+```
+Open the texstudio.ini, look for the [Texmaker] tag and add the content of Macros.txt below.
+```
 ## Additional Shortcuts for TeXStudio
 ### Partitioning Shortcuts
 ```
@@ -20,6 +28,11 @@ Create Itemize: ALT + Q
 Create Subitem: ALT + CTRL + I
 ```
 
+### Environment Shortcuts
+```
+Create a Figure Environment: CTRL + SHIFT + P
+```
+
 ### Glossary
 ```
 Create Glossary: ALT + G
@@ -29,3 +42,4 @@ Create Glossary: ALT + G
 ```
 Emphasize: ALT + V
 ```
+
