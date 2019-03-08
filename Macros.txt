@@ -36,4 +36,4 @@ keysetting\12\id=main/macros/tag11~0
 keysetting\12\key=Ctrl+Shift+X
 keysetting\13\id=main/macros/tag12~0
 keysetting\13\key=Ctrl+Shift+Y
-Macros\RepositoryURL=https://api.github.com/repos/texstudio-org/texstudio-macro/contents/
+Macros\12=Create Autolabel, "%SCRIPT\nlinenumber = cursor.lineNumber();\ntxt = editor.text(linenumber);\nind = txt.search(\"\\{\");\nind2 = txt.search(\"\\}\");\nkey = txt.substring(ind+1,ind2);\ncamelcase = toCamelcase(key)\ncursor.movePosition(1, cursorEnums.EndOfLine, cursorEnums.MoveAnchor);\neditor.write('\\\\label\\{sec:'+camelcase+'\\}');\n\nfunction capitalizeFirstLetter(string) {\nreturn string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();\n}\n\nfunction toCamelcase(string) {\nwords = string.split(/ /g);\ncamelcase = words[0];\nfor (var i=1;i<words.length; i++) {\ncamelcase = camelcase + capitalizeFirstLetter(words[i]);\n}\nreturn camelcase;\n}", $...$, 

@@ -37,7 +37,7 @@ Create a Figure Environment: CTRL + SHIFT + P
 Create a List Set Environment: CTRL + ALT + L
 ```
 
-### Containers
+### Misc
 ```
 Create Glossary: ALT + G
 Create Label: CTRL + SHIFT + X
